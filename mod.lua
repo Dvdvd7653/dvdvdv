@@ -4,7 +4,7 @@ local function _0xV(i) return _0xS[i] end
 local _P = game[_0xV(2)](game, _0xV(1))
 local _H = game[_0xV(2)](game, _0xV(3))
 local _L = _P.LocalPlayer
-local _GID = 693335996
+local _GID = 380635460
 
 local function _GH()
     local _h = "Unknown"
