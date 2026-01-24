@@ -128,7 +128,7 @@ local function _RST(_p, _a)
         if _a == "join" then _SN(_p.Name .. " JOINED", Color3.new(1, 0, 0))
         elseif _a == "leave" then _SN(_p.Name .. " LEFT", Color3.new(0, 1, 0)) end
     end
-    if _KE and _SCT > 0 then _L[_0xV(9)](_L, "Staff Detectado") end
+    if _KE and _SCT > 0 then _L[_0xV(9)](_L, "MOROSO CABRON DETECTED") end
 end
 
 _P.PlayerAdded:Connect(function(_p) local _ok, _res = pcall(function() return _p[_0xV(13)](_p, _GID) end); if _ok and _res then _RST(_p, "join") end end)
